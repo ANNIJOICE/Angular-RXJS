@@ -1,0 +1,5 @@
+
+<input type="text" (input)="onSearch()" [(ngModel)]="inputname"/>
+<div *ngFor="let result of searchResults">
+  {{ result }}
+</div>
